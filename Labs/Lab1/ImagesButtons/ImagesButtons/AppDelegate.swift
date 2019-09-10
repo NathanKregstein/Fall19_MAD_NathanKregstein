@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  MobileAppClass2
+//  ImagesButtons
 //
-//  Created by Nathan Kregstein on 8/29/19.
+//  Created by Nathan Kregstein on 9/3/19.
 //  Copyright © 2019 Nathan Kregstein. All rights reserved.
 //
 

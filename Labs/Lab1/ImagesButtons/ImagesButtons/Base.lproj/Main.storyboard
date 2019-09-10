@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImagesButtons" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alien Selector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIP-MY-goK">
+                                <rect key="frame" x="118.33333333333333" y="75" width="177.33333333333337" height="36"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Draw2" translatesAutoresizingMaskIntoConstraints="NO" id="ter-gt-kpJ">
+                                <rect key="frame" x="-6" y="180" width="426" height="612"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="612.66999999999996" id="5O0-Pt-xmw"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="426.67000000000002" id="8Ew-LF-euy"/>
+                                    <constraint firstAttribute="width" secondItem="ter-gt-kpJ" secondAttribute="height" multiplier="71:102" id="pN4-Vs-189"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="FVo-Pc-Mj7">
+                                <rect key="frame" x="78.666666666666686" y="136" width="257" height="36"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJX-WN-N7t">
+                                        <rect key="frame" x="0.0" y="0.0" width="49" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Cuter"/>
+                                        <connections>
+                                            <action selector="changeShownImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kbn-5A-Ign"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCm-ft-nd7">
+                                        <rect key="frame" x="199" y="0.0" width="58" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Cooler"/>
+                                        <connections>
+                                            <action selector="changeShownImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WpW-Q0-srl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Neutral Alien" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4H-Ud-leQ">
+                                <rect key="frame" x="119.33333333333333" y="800" width="175.66666666666669" height="38.333333333333371"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FVo-Pc-Mj7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Jn-dv-WIE"/>
+                            <constraint firstItem="ter-gt-kpJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cda-Zl-zKZ"/>
+                            <constraint firstItem="tIP-MY-goK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="31" id="EQf-TW-J8j"/>
+                            <constraint firstItem="tIP-MY-goK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J7g-SV-PP7"/>
+                            <constraint firstItem="FVo-Pc-Mj7" firstAttribute="top" secondItem="tIP-MY-goK" secondAttribute="bottom" constant="25" id="Oul-hq-54H"/>
+                            <constraint firstItem="ter-gt-kpJ" firstAttribute="top" secondItem="FVo-Pc-Mj7" secondAttribute="bottom" constant="8" id="Qkw-dj-cRO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="h4H-Ud-leQ" secondAttribute="bottom" constant="23.666666666666629" id="W7w-PY-jXc"/>
+                            <constraint firstItem="ter-gt-kpJ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="213:448" id="ZqV-HS-KlV"/>
+                            <constraint firstItem="h4H-Ud-leQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aW9-Wv-ixN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="ShownImage" destination="ter-gt-kpJ" id="E6e-Oh-X89"/>
+                        <outlet property="photoDescription" destination="h4H-Ud-leQ" id="rIP-Fc-OJg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Draw2" width="426.66665649414062" height="341.33334350585938"/>
+    </resources>
+</document>
