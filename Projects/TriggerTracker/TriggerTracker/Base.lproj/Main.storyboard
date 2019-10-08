@@ -308,6 +308,9 @@
                                             <rect key="frame" x="20" y="16" width="53" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" image="info"/>
+                                            <connections>
+                                                <action selector="InfoDisplay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QPx-5C-FYs"/>
+                                            </connections>
                                         </button>
                                     </barButtonItem>
                                     <barButtonItem style="plain" id="4cA-4S-QDL">

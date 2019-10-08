@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D823A30C233D66C100864173 /* UserControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D823A30B233D66C100864173 /* UserControl.swift */; };
+		D88B88F0234D0B3500C4C1DA /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88B88EF234D0B3500C4C1DA /* infoViewController.swift */; };
 		D88DDE4B233D50440015F29D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88DDE4A233D50440015F29D /* AppDelegate.swift */; };
 		D88DDE4D233D50440015F29D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88DDE4C233D50440015F29D /* ViewController.swift */; };
 		D88DDE50233D50440015F29D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88DDE4E233D50440015F29D /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		D823A30B233D66C100864173 /* UserControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserControl.swift; sourceTree = "<group>"; };
+		D88B88EF234D0B3500C4C1DA /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
 		D88DDE47233D50440015F29D /* TriggerTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriggerTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88DDE4A233D50440015F29D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D88DDE4C233D50440015F29D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D88DDE4A233D50440015F29D /* AppDelegate.swift */,
 				D88DDE4C233D50440015F29D /* ViewController.swift */,
 				D88DDE4E233D50440015F29D /* Main.storyboard */,
+				D88B88EF234D0B3500C4C1DA /* infoViewController.swift */,
 				D823A30B233D66C100864173 /* UserControl.swift */,
 				D88DDE51233D50460015F29D /* Assets.xcassets */,
 				D88DDE53233D50460015F29D /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				D88DDE4D233D50440015F29D /* ViewController.swift in Sources */,
 				D88DDE4B233D50440015F29D /* AppDelegate.swift in Sources */,
+				D88B88F0234D0B3500C4C1DA /* infoViewController.swift in Sources */,
 				D823A30C233D66C100864173 /* UserControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

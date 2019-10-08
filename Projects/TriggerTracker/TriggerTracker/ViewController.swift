@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class ViewController: UIViewController {
     var currentPhase = 0;
@@ -60,6 +61,16 @@ class ViewController: UIViewController {
         phaseArray = [you.untapTrigger, you.upkeepTrigger, you.drawTrigger, you.mainPhase1Trigger, you.combatTrigger, you.mainPhase2Trigger, you.endStepTrigger, enemy.untapTrigger, enemy.upkeepTrigger, enemy.drawTrigger, enemy.mainPhase1Trigger, enemy.combatTrigger, enemy.mainPhase2Trigger,enemy.endStepTrigger]
     }
     
+    @IBAction func InfoDisplay(_ sender: UIButton) {
+        if let url = URL(string: "https://primagames.com/tips/magic-gathering-phases-guide"){
+            let infoVC = SFSafariViewController(url: url)
+            present(infoVC, animated: true)
+        }
+        else if let url = URL(string: "https://magic.wizards.com/en/articles/archive/magic-academy/dynamics-turn-2006-11-04"){
+            let infoVC = SFSafariViewController(url: url)
+            present(infoVC, animated: true)
+        }
+    }
     
     @IBAction func changePlayerTurnShown(_ sender: UISegmentedControl) {
         updateAllTriggersShown()
