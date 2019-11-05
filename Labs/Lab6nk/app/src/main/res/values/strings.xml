@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab6nk</string>
+    <string name="hint1">First Name or Nickname</string>
+    <string name="hint2">Month of birth</string>
+    <string name="title">Your StreetName</string>
+    <string name="button">Generate</string>
+</resources>
