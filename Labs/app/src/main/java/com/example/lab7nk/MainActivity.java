@@ -12,6 +12,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import java.security.Key;
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView bestGame;
@@ -22,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private CheckBox SwitchCheckBox;
     private CheckBox XboxOneCheckBox;
     private CheckBox PS4CheckBox;
+    String GameToGet;
 
 
     @Override
@@ -37,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
         XboxOneCheckBox = findViewById(R.id.check3);
         PS4CheckBox = findViewById(R.id.check4);
 
+        if(savedInstanceState != null){
+            GameToGet = savedInstanceState.getString("result");
+            bestGame.setText(GameToGet + " is the game you should buy");
+        }
     }
 
     public void calculateGame(View view){
@@ -50,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         boolean XboxOne = XboxOneCheckBox.isChecked();
         boolean PS4 = PS4CheckBox.isChecked();
 
-        String GameToGet;
+
 
         if(PC||Switch||XboxOne||PS4){
             if(priceID == -1){
@@ -127,5 +134,12 @@ public class MainActivity extends AppCompatActivity {
             Toast toast = Toast.makeText(context, text, duration);
             toast.show();
         }
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("result", GameToGet );
+
     }
 }
