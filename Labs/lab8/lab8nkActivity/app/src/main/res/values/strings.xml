@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab8NK</string>
+    <string name="title">Boulder Restaurant Finder</string>
+    <string name="desc">Pick what type of cuisine you are craving</string>
+    <string name="search">Search</string>
+    <string name="res">Restaurant you should check out </string>
+    <string name="menu">menu</string>
+    <string name="at">Located at </string>
+
+    <string-array name="types">
+        <item>Sushi</item>
+        <item>Pizza</item>
+        <item>Mexican</item>
+        <item>Chinese</item>
+        <item>Thai</item>
+        <item>Italian</item>
+    </string-array>
+
+</resources>
