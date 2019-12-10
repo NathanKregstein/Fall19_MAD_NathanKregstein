@@ -70,6 +70,9 @@ class ViewController: UIViewController {
             let infoVC = SFSafariViewController(url: url)
             present(infoVC, animated: true)
         }
+        
+        //based on https://www.youtube.com/watch?v=gnjXbR2eNDE
+        
     }
     
     @IBAction func changePlayerTurnShown(_ sender: UISegmentedControl) {

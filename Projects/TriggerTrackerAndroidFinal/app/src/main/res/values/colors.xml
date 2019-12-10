@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="highlight">#DAA520</color>
+
+
+    <color name="primaryColor">#fffaed</color>
+    <color name="primaryLightColor">#ffffff</color>
+    <color name="primaryDarkColor">#ccc4aa</color>
+    <color name="secondaryColor">#b6dce5</color>
+    <color name="secondaryLightColor">#e9ffff</color>
+    <color name="secondaryDarkColor">#85aab3</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+
+    <color name="yourturn">#03a9f4 </color>
+    <color name="enemyturn">#f44336</color>
+
+</resources>
