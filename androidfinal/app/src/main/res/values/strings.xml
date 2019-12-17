@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">KregsteinFinal</string>
+    <string name="title">Burrito Builder</string>
+    <string name="name">name</string>
+    <string name="burrito">burrito</string>
+    <string name="taco">taco</string>
+    <string name="meat">MEAT</string>
+    <string name="vegetables">VEGGIE</string>
+    <string name="GF">Gluten-free</string>
+    <string name="build">BUILD</string>
+    <string name="c1">salsa</string>
+    <string name="c2">sour cream</string>
+    <string name="c3">cheese</string>
+    <string name="c4">guacamole</string>
+    <string name="find">FIND BURRITO</string>
+    <string-array name="locval">
+        <item name="loc1">The Hill</item>
+        <item name="loc2">29th Street</item>
+        <item name="loc3">Pearl Street</item>
+    </string-array>
+    <string name="title_activity_suggesting">SuggestingActivity</string>
+</resources>
